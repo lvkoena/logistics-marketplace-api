@@ -17,9 +17,4 @@ export class RegisterDto {
   @IsString()
   @MinLength(2)
   lastName: string;
-
-  
-  @IsOptional()
-  @IsString()
-  phone?: string;
 }
